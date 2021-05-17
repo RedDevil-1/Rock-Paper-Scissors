@@ -34,7 +34,7 @@ round=(playerSelection,computerSelection)=>{
         console.log("player point is \""+ player +"\" ");
         console.log("computer points is \"" + computer +"\" ");
     }
-    else if(playerSelection !="paper" | playerSelection !="rock" | playerSelection !="scissor"){
+    else if(playerSelection !=="paper" | playerSelection !=="rock" | playerSelection !=="scissor"){
         console.log(playerSelection);
         console.log("  Error:  Enter valid input");
     }
